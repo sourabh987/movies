@@ -1,0 +1,74 @@
+
+h1{
+    font-family: 'Acme', sans-serif;
+    font-weight:700;
+    text-transform: uppercase;
+    text-align: center;
+    font-size:6rem;
+    color: #4b4a4d;
+    margin-top: 0;
+    
+}
+
+
+.input-box{
+    background-color: #cfcece;
+    width:90rem;
+    height: 15rem;
+    border:none;
+    outline: none;
+    border-radius:1rem;
+    display: block;
+    margin:  auto;
+    margin-top:2rem;
+    color: #171717;
+    font-size:2rem;
+   
+
+
+    
+}
+
+
+li{
+display: block;
+margin:  auto;
+    list-style: none;
+    font-size:1.5rem;
+   color:  #171010;
+   text-transform: uppercase;
+  padding: 1rem;
+ 
+  
+}
+
+.li-element{
+    position: relative;
+    font-family: 'Acme', sans-serif;
+   display: block;
+    width:60rem;
+    height: 4rem;
+    background-color: #f7d78c;
+    margin:3rem auto;
+    border-radius:1rem;
+
+    
+}
+
+.btn-dlt{
+   background-color:rgb(209, 9, 9);
+   border:none;
+   color:white;
+   position:absolute;
+   left:50rem;
+   width:4rem;
+   height:2rem;
+   border-radius:0.4rem;
+   box-shadow: 0 1rem 2rem rgba(black, 0.15);
+   transition: all 0.1;
+}
+
+.btn-dlt:hover{
+    background-color:rgb(238, 87, 87); 
+    transform: translateY(-2px);
+}
